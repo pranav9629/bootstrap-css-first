@@ -1,2 +1,1 @@
-# bootstrap-css-first
-front end website developed using bootstrap framework.
+TinDog Starting Files

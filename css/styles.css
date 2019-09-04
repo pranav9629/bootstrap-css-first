@@ -1,0 +1,231 @@
+#title
+{
+	background-color: #ff4c68;
+	color: white;
+}
+
+h1
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.75rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.container-fluid {     padding: 3% 15% 7%;}
+
+body
+{
+	font-family: "Montserrat"
+}
+
+/*Navigation bar*/
+
+.navbar
+{
+	padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand
+{
+	font-family: "ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item
+{
+	padding: 0 18px;
+}
+
+.nav-link
+{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+#navbarSupportedContent
+{
+	text-align: right;
+}
+
+/*download-button*/
+
+.download-button
+{
+	margin: 5% 3% 5% 0;
+}
+
+/*title-image*/
+
+.title-image
+{
+	width: 45%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+/*features*/
+
+#features
+{
+	text-align: center;
+	background-color: white;
+	padding: 7% 15%;
+	position: relative;
+}
+
+.feature-font
+{
+	color: #ef8172;
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+
+h3
+{
+	font-family: 'Source Sans Pro-bold', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.feature-description
+{
+	font-family: "Montserrat-thin";
+	color: #8f8f8f;
+	font-size:1rem;
+}
+
+.feature-font:hover
+{
+	color: #ff4c68;
+}
+
+/*testimonials*/
+
+.carousel-item
+{
+	padding: 7% 15% 7% 15%;
+	text-align: center;
+	background-color: #ff4c68;
+	color: white;
+}
+
+h2
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.75rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.testimonial-image
+{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#press
+{
+	background-color: #ff4c68;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-image
+{
+	width: 15%;
+	margin: 20px 20px 50px 20px;
+}
+
+/*pricing-section*/
+
+
+#pricing
+{
+padding:50px 100px 50px 100px;
+text-align: center;
+}
+
+.custom-button
+{
+	width: 100%;
+}
+
+.second-card
+{
+	padding-top: 20px;
+} 
+.third-card
+{
+	padding-top: 20px;
+}
+
+
+/*Call to action and footer section*/
+
+#cta
+{
+	text-align: center;
+	padding-top: 2%;
+	background-color: #ff4c68;
+}
+
+.conclusion-title
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	color: white;
+	padding-top: 3%;
+}
+
+#footer
+{
+	font-size: 0.8rem;
+	text-align: center;
+	padding-top: 3%;
+}
+
+.custom-footer
+{
+	padding-top: 0;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.download-button-a
+{
+	margin: 2.5% 1.5% 2.5% 0;
+}
+
+
+
+
+/*fine tuning for making the website mobile friendly*/
+
+@media (max-width: 1000px)
+{
+	.title-image
+	{
+		transform: rotate(0);
+	    position: relative;
+	    margin-left: 50%;
+	}
+
+	#title
+	{
+		text-align: center;
+	}
+
+    h2
+    {
+    	font-family: 'Source Sans Pro', sans-serif;
+    	font-size: 1.75rem;
+    	font-weight: bold;
+    	line-height: 1.5;
+    }
+
+}
